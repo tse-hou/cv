@@ -1,0 +1,71 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: .\researchProposal.aux
+Reallocating 'name_of_file' (item size: 1) to 21 items.
+The style file: ACM-Reference-Format.bst
+Reallocating 'name_of_file' (item size: 1) to 5 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Database file #1: refs.bib
+Repeated entry---line 376 of file refs.bib
+ : @article{FLPH19
+ :                ,
+I'm skipping whatever remains of this entry
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'glb_str_end' (item size: 4) to 20 items.
+Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
+Reallocating 'global_strs' (item size: 1) to 4000000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Warning--empty publisher in CSSF18
+Warning--empty address in CSSF18
+Warning--empty publisher in CIZI+19
+Warning--empty address in CIZI+19
+Warning--page numbers missing in both pages and numpages fields in FLPH19
+Warning--empty publisher in HZZS18
+Warning--empty address in HZZS18
+Warning--empty institution in mm20_tr
+Warning--empty publisher in PZWL+19
+Warning--empty address in PZWL+19
+Warning--empty address in SB18
+You've used 14 entries,
+            5719 wiz_defined-function locations,
+            1370 strings with 17301 characters,
+and the built_in function-call counts, 15787 in all, are:
+= -- 1801
+> -- 702
+< -- 0
++ -- 234
+- -- 224
+* -- 1217
+:= -- 1724
+add.period$ -- 72
+call.type$ -- 14
+change.case$ -- 111
+chr.to.int$ -- 12
+cite$ -- 25
+duplicate$ -- 1336
+empty$ -- 937
+format.name$ -- 274
+if$ -- 3645
+int.to.chr$ -- 4
+int.to.str$ -- 1
+missing$ -- 38
+newline$ -- 154
+num.names$ -- 110
+pop$ -- 503
+preamble$ -- 1
+purify$ -- 231
+quote$ -- 0
+skip$ -- 480
+stack$ -- 0
+substring$ -- 1099
+swap$ -- 133
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 337
+warning$ -- 11
+while$ -- 81
+width$ -- 0
+write$ -- 276
+(There was 1 error message)
