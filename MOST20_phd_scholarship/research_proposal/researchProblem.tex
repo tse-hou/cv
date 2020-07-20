@@ -5,20 +5,19 @@ Whiles data types mentioned in Sec.~\ref{sec:intro} could be suitable to immersi
 Their pros and cons are unknown.
 In our research group, we have studied 3DoF VR streaming in the past few years \cite{FYHH20,FLPH19}. 
 These works help us to understand the existing streaming techniques in 3DoF 360{\degree} video streaming.
-We are currently expand our research to different 6DoF data types to understand their pros and cons.
-We will also concretize their suitable usage scenarios,
+We are currently expanding our research to different 6DoF data types to understand their pros and cons.
+We will also concretize their suitable usage scenarios.
 The final outcome of this work is several immersive video streaming testbeds that support heterogeneous data representations.
-Through real experiments, we hope to know more systems challenges in these emerging applications.
+Through real experiments, we get to know more systems challenges in these emerging applications.
 \subsection{Optimal Streaming}\label{sec:optimal_streaming}
 
-To reduce the bandwidth requirement of immersive video streaming, the streaming systems must be optimized.
+To reduce the bandwidth and computing requirements of immersive video streaming, the streaming systems must be optimized.
 In our recent work \cite{mm20_tr},
-we use Test Model for Immersive Video (TMIV)~\cite{mpeg_N18470,mpeg_N18577,mpeg_N18795}, 
-which is a Depth Image Based Rendering (DIBR) codec for immersive video streaming from MPEG, to optimize the immersive video streaming.
+we adopt Test Model for Immersive Video (TMIV)~\cite{mpeg_N18470,mpeg_N18577,mpeg_N18795}, 
+which is a Depth Image Based Rendering (DIBR) codec from MPEG, to optimize the immersive video streaming.
 We develop algorithms to solve the configuration optimization problem based on deep learning, particularly the Neural Network (NN) approaches.
 The two proposed algorithms are:
 a Convolutional Neural Network (CNN) based algorithm and a Deep Reinforcement Learning (DRL) based algorithm
-\footnote{We refer to them as CNN and DRL algorithms for short in the rest of this paper.}.
 Our CNN algorithm benefits from: (i) automatic extracting latent features and 
 (ii) inferencing the prediction rapidly and directly according to the input, which allows the configuration optimizer to 
 adapt to various video scenes and dynamic camera parameters.
@@ -31,17 +30,17 @@ We submitted our paper to ACM Multimedia Conference 2020, which is under review.
 We are currently extending this work into a journal submission. 
 In particularly, we plan to (i) design, implement, and evaluate an end-to-end DIBR-based immersive video streaming system,
 (ii) apply the state-of-the-art DRL algorithms and (iii) adopt larger datasets to train our optimizers.
-We expect the performance of our systems can be better after we apply these optimizations.
+We expect the performance of our systems can be improved after we apply these optimization techniques.
 Moreover, according to the research outcomes of Sec.~\ref{sec:data_representation}, 
 % we also study the new streaming technique to address the challenges in these data types.
-we will generalize our solutions to other data types.
+we will generalize our solutions to other data types/representations.
 \subsection{Quality of Experience (QoE)}
 To measure QoE of users, we plan to design and conduct a series of user studies  
 to quantify the relationship between each parameters and user experience in immersive video streaming sessions.
 In our previous work \cite{mm20_tr}, we conduct a small-scale user study to evaluate our solution.
 The testbed used in that work can be extended and used in more comprehensive subjective experiments.
 The high-level architecture of the immersive video streaming system is shown in Fig.~\ref{fig:architecture}.
-Moreover, we plan to measure the Just-Noticeable Difference (JND)~\cite{JLK06} bitrate of immersive video streaming.
+We also plan to measure the Just-Noticeable Difference (JND)~\cite{JLK06} bitrate of immersive video streaming.
 Using JND bitrates, we can intelligently save the network and computing resources without affecting the user experience.
 Combining the outcomes of the QoE study with the ones achieved in Sec.~\ref{sec:data_representation} and Sec.~\ref{sec:optimal_streaming}
 gives a fully-optimized immersive 6DoF video streaming system.

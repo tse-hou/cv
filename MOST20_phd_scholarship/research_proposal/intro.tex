@@ -34,22 +34,22 @@ switch among these discrete positions in the scenes.
 We target more general 3DoF+ and 6DoF VR, where users can freely move in among the discrete positions.
 We refer to the streaming systems that support such 3DoF+ and 6DoF VR as {\em immersive video streaming} throughout this proposal.
 
-Achieving real immersive video streaming is not an easy task, because there are many challenges need to be overcome:
+Achieving real immersive video streaming is not an easy task, because there are many challenges that need to be overcome:
 \begin{itemize}
 	\item {Different Data Representations: } Various data types can be used to store the information of immersive video, e.g.,
-	2D texture and depth image, light field, 3D point cloud, 3D mesh. Each of them has pros, cons, and usage scenarios, which hav not been comprehensively studied.
+	2D texture and depth image, light field, 3D point cloud, and 3D mesh. Each of them has pros, cons, and usage scenarios, which have not been comprehensively studied.
 	\item {Strict Network Condition Requirements: } The data representations of immersive video have a huge data size. 
-	They need a lot of bandwidth to be streamed, while the realtime ness needs to be maintained. 
+	They need a lot of bandwidth to be streamed, while the realtimeness needs to be maintained. 
 	Take light field video as an example, streaming it consumes bandwidth in the range between 
-	200 Gb/s and 1 Tb/s \cite{CVRW+20}, which is much higher than the available bandwidth we consume today.
+	200 Gb/s and 1 Tb/s \cite{CVRW+20}, which is much higher than the available bandwidth we have today.
 	Moreover, the interactive applications, e.g., 6DoF VR games and holographic conferences, need low latency to realize real-time communications.
-	This inturn makes the network condition requirements more strict.
-	\item {User Experiences: } User experience is the quality that perceived by  users. 
+	This in turn makes the network condition requirements more strict.
+	\item {Complex User Experience Models: } User experience is the quality perceived by  users. 
 	It is an important performance metric for multimedia applications.
 	However, the user experience of immersive videos is still not explored,
-	and the challenges of measuring user experience include but not limited: 
-	(i) too many parameters may affect the user experience in immersive video streaming.
-	and (ii) it's hard to build a immersive video streaming testbed.
+	and the challenges of measuring user experience include but not limited to: 
+	(i) too many parameters may affect the user experience in immersive video streaming
+	and (ii) it's hard to build an immersive video streaming testbed.
 	% Estimating the user experience can help us find the pattern of user habit. 
 	% We can reduce the video quality of user not sensitive part to save the network and computing resources.
 	
