@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.7.17)  14 AUG 2020 17:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.7.17)  17 AUG 2020 19:26
 entering extended mode
 **./Resume_TseHou.tex
 (Resume_TseHou.tex
@@ -830,8 +830,7 @@ fmode.def
 File: l3backend-pdfmode.def 2020-06-29 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count398
 \l__pdf_internal_box=\box93
-)
-No file Resume_TseHou.aux.
+) (Resume_TseHou.aux)
 \openout1 = `Resume_TseHou.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
@@ -853,6 +852,7 @@ LaTeX Font Info:    ... okay on input line 16.
 LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 16.
 LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 1
 6.
+
 (C:\Users\tsehou\AppData\Local\Programs\MiKTeX\tex/latex/cyrillic\t2acmr.fd
 File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
@@ -910,6 +910,7 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 16.
 LaTeX Info: Redefining \pageref on input line 16.
 LaTeX Info: Redefining \nameref on input line 16.
+ (Resume_TseHou.out) (Resume_TseHou.out)
 \@outlinefile=\write4
 \openout4 = `Resume_TseHou.out'.
 
@@ -951,11 +952,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 8.
 ) (publications.tex)
-(honor.tex)
-
-LaTeX Warning: Reference `LastPage' on page 1 undefined on input line 32.
-
-[1
+(honor.tex) [1
 
 {C:/Users/tsehou/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
 (experience.tex
@@ -989,53 +986,38 @@ Underfull \hbox (badness 10000) detected at line 34
 [][]
  []
 
-)
+) (reference.tex
+Overfull \hbox (2.90579pt too wide) in paragraph at lines 13--13
+[][]
+ []
 
-Package lastpage Warning: Rerun to get the references right on input line 50.
 
+Overfull \hbox (3.30263pt too wide) in paragraph at lines 26--26
+[][]
+ []
 
+) 
 AED: lastpage setting LastPage
-
-LaTeX Warning: Reference `LastPage' on page 2 undefined on input line 50.
-
 [2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 50.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 50.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 51.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 51.
  (Resume_TseHou.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 50.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 50.
-
-
-Package rerunfilecheck Warning: File `Resume_TseHou.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Resume_TseHou.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  0D7478B74BD3139D98D68EE9CC48CAF7;399.
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                Resume_TseHou
-(biblatex)                and rerun LaTeX afterwards.
-
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 51.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 51.
+Package rerunfilecheck Info: File `Resume_TseHou.out' has not changed.
+(rerunfilecheck)             Checksum: 65ACA2D5A24D86C519A2B796B6255D1C;443.
 Package logreq Info: Writing requests to 'Resume_TseHou.run.xml'.
 \openout1 = `Resume_TseHou.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 15133 strings out of 480790
- 258272 string characters out of 2896832
- 969697 words of memory out of 3000000
- 30920 multiletter control sequences out of 15000+200000
+ 15154 strings out of 480790
+ 258587 string characters out of 2896832
+ 970843 words of memory out of 3000000
+ 30932 multiletter control sequences out of 15000+200000
  542703 words of font info for 44 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 45i,11n,49p,884b,1626s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 45i,11n,49p,884b,1625s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\tsehou\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcr
 m1000.pk> <C:\Users\tsehou\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi
 600\tcrm1095.pk>{C:/Users/tsehou/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/
@@ -1047,9 +1029,9 @@ ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/tsehou/AppData/Loca
 l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/tsehou/App
 Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/
 tsehou/AppData/Local/Programs/MiKTeX/fonts/type1/adobe/utopia/putr8a.pfb>
-Output written on Resume_TseHou.pdf (2 pages, 111165 bytes).
+Output written on Resume_TseHou.pdf (2 pages, 113938 bytes).
 PDF statistics:
- 70 PDF objects out of 1000 (max. 8388607)
- 13 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 101 PDF objects out of 1000 (max. 8388607)
+ 14 named destinations out of 1000 (max. 500000)
+ 73 words of extra memory for PDF output out of 10000 (max. 10000000)
 
