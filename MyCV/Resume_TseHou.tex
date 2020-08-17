@@ -1,0 +1,50 @@
+
+\documentclass[letterpaper,11pt]{article}
+
+% Choose bibliography style for formatting list of publications
+\usepackage[style=ieee,url=false,doi=false,maxbibnames=99,sorting=ydnt,dashed=false]{biblatex}
+\bibliography{papers}
+
+% Choose theme, e.g. black, RedViolet, ForestGreen, MidnightBlue
+\def\theme{MidnightBlue}
+% For more, see https://en.wikibooks.org/wiki/LaTeX/Colors
+\usepackage{gensymb}
+\usepackage{simplecv}
+
+\boldname{Hung}{Tse-Hou}{N.}
+
+\begin{document}
+
+% Heading
+\headinginline{Tse-Hou Hung}{
+    Email: \email{tsehou.nthu@gmail.com} \\
+    GitHub: \github{tse-hou} \\
+    Phone: +886-919-390136
+}
+\import{}{objective}
+\import{}{interest}
+\import{}{education}
+\import{}{skill}
+\import{}{publications}
+\import{}{honor}
+
+\pagebreak
+
+\import{}{experience}
+% % Page One
+% \import{sections/}{education.tex}
+% \import{sections/}{experience.tex}
+% \import{sections/}{publications.tex}
+% \import{sections/}{teaching.tex}
+
+% \pagebreak
+
+% % Page Two
+% \sidebyside
+%     {\import{sections/}{skills.tex}}
+%     {\import{sections/}{languages.tex}}
+% \import{sections/}{projects.tex}
+% \import{sections/}{awards.tex}
+% \import{sections/}{extracurricular.tex}
+
+\end{document}
